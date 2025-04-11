@@ -1,0 +1,90 @@
+.fooditem {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.fooditemMain {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0;
+}
+.fooditemWrapper {
+  position: relative;
+  overflow: hidden;
+  margin-top: 5rem;
+  height: 550px;
+}
+.fooditem .slick-list {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+.iteammain {
+  padding: 10px;
+  text-align: center;
+  /* height: 220px; */
+  display: flex;
+  display: flex !important
+;
+  align-items: center;
+  justify-content: center;
+}
+
+.iteammain img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Slick slider custom styles */
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 0px;
+  top: 25%;
+}
+
+.slick-next {
+  right: 0px;
+  top: 25%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+/* Multi-row specific styles */
+.slick-track {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+/* Adjust dots position for multi-row */
+.slick-dots {
+  bottom: -40px;
+}

@@ -1,0 +1,130 @@
+.app-promo-section {
+  background-color: #161b1f;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  margin-top: 8rem;
+}
+.promo-content {
+  max-width: 1450px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-content {
+  display: grid;
+  align-items: end;
+  justify-items: start;
+}
+.text-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 18px;
+  color: #cfcfcf;
+  margin-bottom: 40px;
+}
+
+.qr-box {
+  display: inline-block;
+}
+
+.qr-img {
+  width: 150px;
+  height: 150px;
+}
+
+.scan-text {
+  margin-top: 10px;
+  color: #fc8019;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Floating food illustrations */
+.float-img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 0;
+}
+
+.burger {
+  top: 30%;
+  right: 15%;
+}
+
+.box {
+  bottom: 10%;
+  right: 10%;
+}
+
+.plate {
+  top: 35%;
+  left: 10%;
+}
+
+.taco {
+  bottom: 15%;
+  left: 15%;
+}
+.logopromo {
+  width: 150px;
+  height: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #e8e8e8;
+}
+
+.app-links img {
+  width: 120px;
+  margin: 0 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
